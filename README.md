@@ -13,7 +13,7 @@ A basic extensible Discord bot framework in Golang
 
 ### Prerequisites
 
-- Go 1.16 or higher
+- Go 1.18 or higher
 - A Discord Bot Token ([create one here](https://discord.com/developers/applications))
 
 ### Setup

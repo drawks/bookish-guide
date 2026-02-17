@@ -4,9 +4,15 @@ import (
 	"fmt"
 	"math/rand"
 	"strings"
+	"time"
 
 	"github.com/bwmarrin/discordgo"
 )
+
+func init() {
+	// Initialize random seed for dice rolls and random quotes
+	rand.Seed(time.Now().UnixNano())
+}
 
 // RollCommand implements a dice rolling command
 type RollCommand struct{}
