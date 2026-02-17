@@ -60,8 +60,8 @@ go run main.go -config config.json
 ### Building the Bot
 
 ```bash
-go build -o bot main.go
-./bot
+go build -o bookish-guide main.go
+./bookish-guide
 ```
 
 ## Creating Custom Commands
